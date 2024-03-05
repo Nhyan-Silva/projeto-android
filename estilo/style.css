@@ -117,6 +117,7 @@ margin:30px;
 line-height:30px;
 font-size:18px;
 text-indent:50px;
+text-align:justify;
 }
 body{
 
@@ -163,5 +164,6 @@ left: 5%;
 width: 90%;
 height: -90%;
 bottom: 100%;
-padding-left:50px;
+padding-left:20px;
+margin-left:10px;
 }
