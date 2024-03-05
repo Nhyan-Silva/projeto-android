@@ -1,0 +1,167 @@
+@charset "utf-8";
+
+
+
+
+
+
+:root{
+--cor0:#89CDA5;
+--cor1:#5CBE7D;
+--cor2:#1A5A37;
+--cor3:;
+}
+
+
+
+
+*{
+
+    margin:0px;
+    padding: 0px;
+}
+
+header{
+min-height:120px;
+text-align: center;
+padding-top:20px;
+
+    
+}
+
+header > h1{
+font-size:2.5em;
+color:silver;
+    margin-top:30px;
+    padding-bottom:10px;
+    text-shadow:2px 2px 0px rgba(0, 0, 0, 0.414);
+}
+header > p{
+font-size: 1.2em;
+color:silver;
+max-width:500pxpx;
+margin: auto;
+text-shadow:2px 2px 0px rgba(0, 0, 0, 0.415);
+}
+
+nav{
+background-color:#103722f0;
+min-height:30px;
+padding-left:20px;
+padding-top:20px;
+font-size:1.2em;
+box-shadow: 0px 7px 9px rgba(0, 0, 0, 0.419);
+}
+
+nav > a:hover{
+background-color:silver;
+color: black;
+border-radius:10px;
+padding:7px;
+transition-duration:1s;
+}
+
+
+
+a.menu{
+
+color:silver;
+padding:10px;
+text-decoration: none;
+font-weight:bold;
+}
+
+a.external::after{
+
+content:'\1F517';
+}
+
+a{
+
+    text-decoration: none;
+    color: rgba(20, 24, 214, 0.637);
+    text-decoration:underline;
+}
+
+main{background-color:aliceblue;
+min-width:300px;
+max-width:1000px;
+margin: auto;
+padding: 20px;
+box-shadow: 0px 0px 5px black;
+border-bottom-right-radius:20px;
+border-bottom-left-radius:20px;
+margin-bottom: 15px;
+
+}
+
+main img{width: 100%;}
+
+
+main img.pequena{
+max-width:350px;
+display: block;
+margin: auto;
+
+
+}
+
+h2#trans{
+color:#1A5A37;
+
+}
+
+p{
+
+margin:30px;
+line-height:30px;
+font-size:18px;
+text-indent:50px;
+}
+body{
+
+
+    
+}
+strong{color: green;}
+aside{
+
+    background-color: #5CBE7D;
+    border-radius:20px;
+    text-indent:20px;
+}
+
+aside > h3{
+
+background-color: black;
+color: aliceblue;
+border-radius:10px 10px 0px 0px;
+padding-bottom: 5px;
+}
+
+aside > ul{
+padding-left:12px;
+list-style-position: inside;
+columns:2;
+}
+footer{font-size:25px;
+text-align: center;
+    
+}
+
+div#videos{
+background-color: #1A5A37;
+margin:0px -20px 30px -20px;
+padding:20px;
+padding-bottom:2%;
+position:relative
+}
+
+div#videos > iframe{
+position:absolute
+left: 5%; 
+width: 90%;
+height: -90%;
+bottom: 100%;
+padding-left:50px;
+}
