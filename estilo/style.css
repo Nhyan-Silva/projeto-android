@@ -25,6 +25,7 @@ header{
 min-height:120px;
 text-align: center;
 padding-top:20px;
+background-image:linear-gradient(to bottom, #40d77a,#22482f, #1a3928 );
 
 
 
@@ -32,22 +33,23 @@ padding-top:20px;
 }
 
 header > h1{
-font-size:2.5em;
+font-size:2em;
 color:silver;
     margin-top:30px;
-    padding-bottom:10px;
+    padding-bottom:-20px;
     text-shadow:2px 2px 0px rgba(0, 0, 0, 0.414);
+    font-family:'idroid';
 }
 header > p{
-font-size: 1.2em;
+font-size: 1.3em;
 color:silver;
-max-width:500pxpx;
-margin: auto;
+max-width:400pxpx;
 text-shadow:2px 2px 0px rgba(0, 0, 0, 0.415);
+text-align: center;
 }
 
 nav{
-background-color:#103722f0;
+background-color:#1a3928;
 min-height:30px;
 padding-left:20px;
 padding-top:20px;
@@ -112,14 +114,24 @@ h2#trans{
 color:#1A5A37;
 
 }
+h1#primario{font-family:'idroid';
+text-align: center;
+}
+
+h2#primario{font-family:'idroid';
+    text-align: left;
+}
+
+h2{font-family: 'idroid';
+text-align: center;}
 
 p{
-
-margin:30px;
+padding: -10px;
 line-height:30px;
-font-size:18px;
+font-size:22px;
 text-indent:50px;
 text-align:justify;
+padding:30px 0px 30px 0px;
 }
 body{
 
@@ -149,6 +161,7 @@ columns:2;
 }
 footer{font-size:25px;
 text-align: center;
+font-size:20px;
     
 }
 
