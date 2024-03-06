@@ -118,12 +118,19 @@ h1#primario{font-family:'idroid';
 text-align: center;
 }
 
-h2#primario{font-family:'idroid';
+h2#primario{font-family:'idroid, Arial, Helvetica, sans-serif';
     text-align: left;
 }
 
 h2{font-family: 'idroid';
 text-align: center;}
+
+
+h2#primario{
+
+    background-image:linear-gradient(to right, #459c69, transparent);  
+    border-radius:20px;  
+    }
 
 p{
 padding: -10px;
@@ -162,7 +169,7 @@ columns:2;
 footer{font-size:25px;
 text-align: center;
 font-size:20px;
-    
+font-family: Arial, Helvetica, sans-serif;
 }
 
 div#videos{
